@@ -1,9 +1,12 @@
 import React from 'react';
+import FeedTrends from '../feedTrends';
+import SearchSideBar from '../SearchSideBar/searchSideBar';
 
-const SidebarCol = (props) => {
+const SidebarCol = () => {
     return (
         <div className="t-sidebar-col">
-            
+           <SearchSideBar />
+           <FeedTrends /> 
         </div>
     )
 }

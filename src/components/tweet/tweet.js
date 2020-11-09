@@ -31,7 +31,7 @@ class Tweet extends React.Component{
                       <h5>{this.props.date}</h5>  </p>
                     
                 </div>
-                <div className="row1">
+                <div className="row1"> 
                     <div className="t-icon col">{<ChatSolid/>}{this.props.comments}</div>
                     <div className="t-icon col">{<RefreshSolid/>}{this.props.retweets}</div>
                     <div className="t-icon col">{<HeartSolid/>}{this.props.likes}</div>

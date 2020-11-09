@@ -26,11 +26,8 @@
   padding: 0em 1em;
   align-items: flex-start;
   width: 65%;
-  
   overflow-x: hidden;
-    overflow-y: auto;
-
- 
+  overflow-y: scroll rgba(255, 0, 0, 0);
 }
 
 .t-row{
@@ -49,6 +46,5 @@
 }
 
 .t-sidebar-col{
-  border: 1px dashed #000;
   width: 35%;
 }
